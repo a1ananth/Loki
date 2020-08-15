@@ -1,0 +1,16 @@
+.custom-page {
+  & > .container {
+    //max-height: calc(100vh - 130px);
+    //overflow-x: hidden;
+    //overflow-y: auto;
+
+    padding-bottom: 1rem;
+    min-height: calc(100vh - 50px);
+  }
+
+  .logo {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+  }
+}

@@ -1,0 +1,6 @@
+*
+!.gitignore
+!opensearch.xml
+*.zip
+!favicon.png
+!favicon-16.png

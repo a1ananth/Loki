@@ -1,0 +1,12 @@
+{
+  "ignore": [
+    "dist/*.js",
+    "dist/**/*.js",
+    "app/**/*.js",
+    "app/*.js",
+    "app/dist/*.js",
+    "app/dist/**/*.js",
+    "extension/*.js",
+    "extension/**/*.js"
+  ]
+}

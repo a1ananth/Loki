@@ -1,0 +1,26 @@
+.edit-page {
+  //padding-bottom: 50px;
+
+  & > .container-fluid {
+    padding-bottom: 1rem;
+    min-height: calc(100vh - 50px);
+  }
+
+  .search-form-container {
+    margin-top: 1rem;
+  }
+
+  .helper-text {
+    font-size: 80%;
+  }
+
+  .quill.fixed-text-editor .ql-editor {
+    min-height: 400px;
+  }
+
+  .quill.meanings-editor .ql-editor,
+  .quill.synonyms-editor .ql-editor,
+  .quill.antonyms-editor .ql-editor {
+    min-height: 100px;
+  }
+}

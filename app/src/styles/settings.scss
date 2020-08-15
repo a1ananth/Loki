@@ -1,0 +1,32 @@
+.settings-page {
+  .logo-upload-container {
+    img {
+      width: auto;
+      height: auto;
+      max-width: 200px;
+      max-height: 200px;
+    }
+  }
+
+  .tab-pane > .card {
+    border-top: none;
+
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .helper-text {
+    margin-top: 0.3rem;
+    font-size: 75%;
+  }
+
+  .bottom-card .card {
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .manage-auth-tokens {
+
+  }
+}

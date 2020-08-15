@@ -1,0 +1,74 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../../node_modules/font-awesome/css/font-awesome.min.css';
+@import '../../node_modules/react-bootstrap-typeahead/css/Typeahead.css';
+@import '../../node_modules/react-quill/dist/quill.snow.css';
+@import "footer";
+@import "search-form";
+@import "home-page";
+@import "edit-page";
+@import "search-result-page";
+@import "settings";
+@import "about-page";
+@import "custom-page";
+@import "search-results/fixed-text";
+@import "search-results/meta-search";
+
+/* Variables */
+$vin-blue: #5bb7db;
+$vin-green: #60b044;
+$vin-red: #ff0000;
+
+body {
+  //background: rgba(0, 0, 255, 0.04);
+  background-color: #e7edff;
+}
+
+.pointer.link {
+  cursor: pointer;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 0.5em 10px 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+.privacy-page {
+  .privacy-details-container {
+    h4, p, a, div {
+      font-family: serif;
+    }
+  }
+}
+
+.dropzone-container {
+  .dropzone-view {
+    border-radius: 7px;
+    background: rgba(211, 229, 244, 0.5);
+    border: 1px dashed #777;
+    text-align: center;
+
+    padding: 2rem;
+  }
+
+  @media (max-width: 768px) {
+    .dropzone {
+      margin-bottom: 1rem;
+    }
+  }
+}

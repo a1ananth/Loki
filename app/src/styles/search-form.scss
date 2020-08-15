@@ -1,0 +1,23 @@
+.search-form {
+  .search-logo {
+    max-width: 100%;
+    max-height: 52px;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  .rbt-menu.dropdown-menu {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: -2px;
+  }
+
+  .rbt-menu > .dropdown-item {
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #CCC;
+
+    &:last-of-type {
+      border-bottom: 0;
+    }
+  }
+}

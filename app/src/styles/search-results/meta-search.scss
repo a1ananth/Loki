@@ -1,0 +1,41 @@
+.meta-search-result {
+  .web-page-link {
+    &:first-of-type {
+      border-top: 0;
+    }
+
+    a, a:hover {
+      text-decoration: none;
+    }
+
+    .card-body {
+      padding: 0.75rem;
+      background: #FFF;
+
+      &:hover {
+        background: rgba(0, 0, 0, 0.04);
+      }
+    }
+
+    .result-title {
+      margin-bottom: 0.25rem;
+      font-size: 1.2rem;
+      color: #333;
+    }
+
+    .result-url {
+      font-size: 0.8rem;
+      color: #46A2F2;
+      margin-bottom: 0.25rem;
+    }
+
+    .result-desc {
+      font-size: 0.85rem;
+      color: #333;
+    }
+
+    .btn-toggle-desc {
+      color: #AAA;
+    }
+  }
+}

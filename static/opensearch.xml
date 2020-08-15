@@ -1,0 +1,10 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+    <ShortName>Loki</ShortName>
+    <Description>
+      You may not be able to remember all the important information you read on the web. Loki does it for you.
+    </Description>
+    <InputEncoding>UTF-8</InputEncoding>
+    <Image width="16" height="16" type="image/png">http://localhost:9192/static/favicon-16.png</Image>
+    <Url type="text/html" method="get" template="http://localhost:9192/search?q={searchTerms}"/>
+    <Url type="application/x-suggestions+json" method="GET" template="http://localhost:9192/suggest?q={searchTerms}" />
+  </OpenSearchDescription>

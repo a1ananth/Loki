@@ -1,0 +1,47 @@
+{
+    "manifest_version": 2,
+    "name": "Loki",
+    "description": "This browser extension for Loki system runs in the background to save useful information from the web to your own Loki repository instance.",
+    "version": "0.1.4",
+    "browser_action": {
+        "default_icon": "icons/icon32.png",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "storage",
+        "file:///*",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "background": {
+        "scripts": [
+            "libraries/helpers.js",
+            "libraries/ajax.js",
+            "libraries/ddg.js",
+            "libraries/google.js",
+            "libraries/youtube.js",
+            "libraries/apiBaseUrl.js",
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": [
+                "backgroundOnPageLoad.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}

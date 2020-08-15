@@ -1,0 +1,25 @@
+.search-result-page {
+  .search-form-container {
+    margin-top: 1rem;
+  }
+
+  .search-result-container {
+    //max-height: calc(100vh - 130px);
+    //overflow-x: hidden;
+    //overflow-y: auto;
+
+    padding-bottom: 1rem;
+    min-height: calc(100vh - 119px);
+  }
+
+  .privacy-status-container {
+    .badge {
+      font-size: 0.9rem;
+      min-width: 75px;
+      width: auto;
+      height: 25px;
+      text-align: center;
+      line-height: 1rem;
+    }
+  }
+}
